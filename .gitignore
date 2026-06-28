@@ -1,0 +1,32 @@
+# Secrets
+.env
+plexus-home/.env
+
+# Build artifacts
+*.exe
+*.dll
+*.pyc
+__pycache__/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Dependencies
+node_modules/
+
+# Build output
+build/bin/
+
+# Custom config (not source)
+plexus-home/config.toml
+plexus-home/config.toml.bak
+plexus-home/desktop-workspace
+plexus-home/desktop-workspaces.json
+plexus-home/sessions/
+plexus-home/memory/
+plexus-home/projects/
+plexus-home/mcp-global-migration-v1
+
+# Work data
+交接.md
