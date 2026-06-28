@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "plexus-desktop",
+  "outputfilename": "plexus-desktop",
+  "frontend:install": "npm install",
+  "frontend:build": "npm run build",
+  "frontend:dev:watcher": "npm run dev",
+  "frontend:dev:serverUrl": "auto",
+  "author": {
+    "name": "esengine"
+  },
+  "info": {
+    "companyName": "Plexus",
+    "productName": "Plexus",
+    "productVersion": "0.1.0",
+    "copyright": "Copyright \u00a9 2026 Plexus",
+    "comments": "Plexus desktop \u2014 a Wails shell around the Go kernel."
+  }
+}
